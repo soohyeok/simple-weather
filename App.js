@@ -7,7 +7,7 @@ import Loading from './components/Loading';
 import Weather from './components/Weather';
 
 
-const API_KEY = "9afcc00a799605728bc27ccc88438ae8"
+const API_KEY = "PUT YOUR KEY HERE"
 
 export default class extends React.Component {
   state = {
