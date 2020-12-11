@@ -7,7 +7,7 @@ import Loading from './components/Loading';
 import Weather from './components/Weather';
 
 
-const API_KEY = "PUT YOUR KEY HERE"
+const API_KEY = "9afcc00a799605728bc27ccc88438ae8"
 
 export default class extends React.Component {
   state = {
@@ -46,6 +46,6 @@ export default class extends React.Component {
   }
   render (){
     const {isLoading, temp, condition} = this.state;
-    return isLoading ? <Loading /> : <Weather temp={temp} condition={condition}/>;
+    return isLoading ? <Loading /> : <Weather temp={Math.round(temp)} condition={condition}/>;
   }
 }
