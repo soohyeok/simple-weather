@@ -100,7 +100,6 @@ const weatherCases = {
 
 export default function Weather ({temp, condition}){
     return(
-        //condition = "Tornado",
         <LinearGradient
             colors={weatherCases[condition].gradient}
             style={styles.container}
