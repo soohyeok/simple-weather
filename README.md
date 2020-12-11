@@ -1,2 +1,2 @@
 # simple-weather
-creating simple weather app to learn React Native
+creating simple expo app to learn React Native
